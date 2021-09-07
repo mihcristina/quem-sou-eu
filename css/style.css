@@ -1,7 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:wght@100&display=swap');
 
+header {
+    background: url(../images/m3.jpeg);
+    background-size: cover;
+    padding: 360px;
+}
 
+header h1{
+    text-align: center;
+    position: relative;
+    font-family: 'Caveat', cursive;
+    color: #000000;
+    font-size: 250%;
+    
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.447);
+    position: fixed;
+    padding-top: 5px;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+nav li, a {
+    float: left;
+    display: block;
+    color: #DB7093;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  h2 {
+    font-family: 'Caveat', cursive;
+    color: #fff;
+}
 
 .my_resume {
     text-align: center;
@@ -9,68 +48,61 @@
     font-family: 'Caveat', cursive;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    padding: 20%;
+}
+
+.my_resume h2, .fas {
     color: #DB7093;
+    font-size: 80%;
 }
 
-.email {
-    display: inline-block;
-}
-
-
-.box {
-    display: inline-block;
-    color: #DB7093;
-}
-
-.name {
-    padding-right: 25%;
-    padding-left: 35%;
-    position: relative;
+.my_resume p {
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 30%;
 }
-.name p {
+
+
+
+.icons_lang .fab {
+    color: #fff;
+    font-size: 100px;
+}
+
+
+.lang {
+    display: inline-block;
+    align-items: center;
+    padding: 1%;
+}
+
+
+.icons_lang {
     text-align: center;
+    background-color: #DB7093;
+    padding: 17%;
 }
 
-hr {
-	border: 0;
-	border-top: 1px solid #DB7093;
+.icons_lang p {
+    color: #fff;
 }
 
-.fas {
+.icons_contact {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.cont h2, .fab, .fas{
     color: #DB7093;
-}
-
-h2 {
-    font-family: 'Caveat', cursive;
-    color: #DB7093;
-}
-
-
-
-.languages {
-
-    padding-right: 30%;
-    padding-left: 31%;
-    color: #DB7093;
-    text-align: center;
-}
-
-.my_lang {
-    text-align: center;
+    font-size: 100px;
+    align-items: center;
 }
 
 img {
     width: 30%;
-    
+    padding-left: 70%;
 }
 
-.idioms, .skills {
-    padding-right: 30%;
-    padding-left: 31%;
-}
-
-.aligns {
-    display: inline-block;
+footer {
+    background-color: #DB7093;
+    color: #fff;
 }
