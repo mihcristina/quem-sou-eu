@@ -29,10 +29,10 @@ nav {
 nav li, a {
     float: left;
     display: block;
-    color: #DB7093;
+    color: #DB7093 !important;
     text-align: center;
-    text-decoration: none;
-    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none !important;
+    font-family: 'IBM Plex Mono', monospace !important;
     font-size: 20px;
     padding: 6px;
   }
@@ -68,14 +68,12 @@ nav li, a {
     font-size: 100px;
 }
 
-
 .lang {
     display: inline-block;
     align-items: center;
     padding: 1%;
     font-family: 'IBM Plex Mono', monospace;
 }
-
 
 .icons_lang {
     text-align: center;
@@ -92,7 +90,7 @@ nav li, a {
     padding-right: 5%;
 }
 
-.cont h2, .fab, .fas{
+.cont_two h2, .fab, .fas{
     color: #DB7093;
     font-size: 100px;
     align-items: center;
