@@ -98,7 +98,8 @@ nav li, a {
 
 img {
     width: 30%;
-    padding-left: 70%;
+    display: inline-block;
+    margin-left: 60%;
 }
 
 footer {
