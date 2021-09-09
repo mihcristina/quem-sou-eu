@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:wght@100&display=swap');
 
 header {
-    background: url(../images/m3.jpeg);
+    background: url(../images/m3.png);
     background-size: cover;
     padding: 22%;
+    
 }
 
 header h1{
-    text-align: center;
-    position: relative;
     font-family: 'Caveat', cursive;
-    color: #000000;
+    color: #DB7093;
     font-size: 250%;
+    float: right;
     
 }
 
