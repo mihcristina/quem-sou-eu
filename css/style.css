@@ -39,7 +39,7 @@ header h1{
 
 nav {
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.568);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     padding-top: 5px;
     top: 0;
@@ -109,6 +109,11 @@ nav li, a {
 .icons_contact {
     display: inline-block;
     padding-right: 5%;
+    align-items: center;
+}
+
+.cont_two {
+    text-align: center;
 }
 
 .cont_two h2, .fab, .fas{
