@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:wght@100&display=swap');
 
 header {
-    background: url(../images/m3.JPG);
+    background: url(../images/m3.jpeg);
     background-size: cover;
     padding: 20%;
 
@@ -122,7 +122,7 @@ nav li, a {
     align-items: center;
 }
 
-img {
+.cachorras {
     width: 30%;
     display: inline-block;
     margin-left: 60%;
@@ -131,4 +131,10 @@ img {
 footer {
     background-color: #DB7093;
     color: #fff;
+}
+
+.imgseta {
+    width: 15%;
+    display: inline-block;
+    align-items: left;
 }

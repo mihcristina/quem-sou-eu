@@ -26,7 +26,7 @@ function scrollClick(event) {
     const to = document.querySelector(id).offsetTop;
 
     window.scroll({
-        top: to - 80,
+        top: to - 70,
         behavior: "smooth",
 
     });
