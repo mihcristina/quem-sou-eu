@@ -1,19 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:wght@100&display=swap');
 
 header {
-    background: url(../images/m3.png);
+    background: url(../images/m3.JPG);
     background-size: cover;
-    padding: 22%;
-    
+    padding: 20%;
+
 }
 
 header h1{
-    font-family: 'Caveat', cursive;
-    color: #DB7093;
+    font-family: 'Roboto Mono', monospace;    
+    color: white;
     font-size: 250%;
-    float: right;
+    text-align: right;
+    position: inherit;
     
+}
+#titulo_um{
+    margin-top: 120px;
+}
+
+#titulo_dois:after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    color: #DB7093;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+   0% {
+       opacity: 1;
+   }
+   50% {
+       opacity: 0;
+   }
 }
 
 nav {
