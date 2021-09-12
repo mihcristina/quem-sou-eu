@@ -37,30 +37,10 @@ header h1{
    }
 }
 
-nav {
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    padding-top: 5px;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-}
-
-nav li, a {
-    float: left;
-    display: block;
-    color: #DB7093 !important;
-    text-align: center;
-    text-decoration: none !important;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    padding: 6px;
-  }
-
-  h2 {
+  #titulo_tres {
     font-family: 'Caveat', cursive;
     color: #fff;
+    font-size: 150%;
 }
 
 .my_resume {
@@ -140,3 +120,40 @@ footer {
     display: inline-block;
     margin-top: 1px;
 }
+
+#titulo_quatro {
+    font-family: 'Caveat', cursive;
+    color: #DB7093;
+    font-size: 300%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#titulo_cinco {
+    font-family: 'Caveat', cursive;
+    color: #DB7093;
+    font-size: 300%;
+    margin-top: 0;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.877);
+    position: fixed;
+    padding-top: 5px;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+nav li, a {
+    float: left;
+    display: block;
+    color: #DB7093 !important;
+    text-align: center;
+    text-decoration: none !important;
+    font-family: 'Roboto Mono', monospace;    
+    font-size: 20px;
+    padding: 6px;
+
+  }
