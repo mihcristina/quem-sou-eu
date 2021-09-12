@@ -11,6 +11,7 @@ function typeWriter(elemento) {
     const titulo = document.querySelector('#titulo_dois');
     typeWriter(titulo);
 
+        
 // Scroll suave
 
 const menuItens = document.querySelectorAll('.menu a')
@@ -26,8 +27,9 @@ function scrollClick(event) {
     const to = document.querySelector(id).offsetTop;
 
     window.scroll({
-        top: to - 70,
+        top: to ,
         behavior: "smooth",
 
     });
 }
+
