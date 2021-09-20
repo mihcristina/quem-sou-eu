@@ -1,159 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-header {
-    background: url(../images/m3.jpeg);
-    background-size: cover;
-    padding: 20%;
+/*Menu*/
 
+.diferent {
+    float: left;
 }
 
-header h1{
-    font-family: 'Roboto Mono', monospace;    
-    color: white;
-    font-size: 250%;
-    text-align: right;
-    position: inherit;
-    
-}
-#titulo_um{
-    margin-top: 120px;
-}
-
-#titulo_dois:after {
-    content: '|';
-    margin-left: 5px;
-    opacity: 1;
-    color: #DB7093;
-    animation: pisca .7s infinite;
-}
-
-@keyframes pisca {
-   0% {
-       opacity: 1;
-   }
-   50% {
-       opacity: 0;
-   }
-}
-
-  #titulo_tres {
-    font-family: 'Caveat', cursive;
-    color: #fff;
-    font-size: 150%;
-}
-
-.my_resume {
-    text-align: center;
-    font-size: 500%;
-    font-family: 'Caveat', cursive;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10%;
-    
-}
-
-.my_resume h2 {
-    color: #DB7093;
-    font-size: 80%;
-    margin-top: 0;
-}
-
-.my_resume p {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 30%;
-}
-
-
-.icons_lang .fab {
-    color: #fff;
-    font-size: 100px;
-}
-
-.lang {
-    display: inline-block;
-    align-items: center;
-    padding: 1%;
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-.icons_lang {
-    text-align: center;
-    background-color: #DB7093;
-    padding: 17%;
-}
-
-.icons_lang p {
-    color: #fff;
-}
-
-.icons_contact {
-    display: inline-block;
-    padding-right: 5%;
-    align-items: center;
-}
-
-.cont_two {
-    text-align: center;
-    padding: 10%;
-}
-
-.cont_two h2, .fab, .fas{
-    color: #DB7093;
-    font-size: 100px;
-    align-items: center;
-}
-
-.cachorras {
-    width: 30%;
-    display: inline-block;
-    margin-left: 60%;
-}
-
-footer {
-    background-color: #DB7093;
-    color: #fff;
-}
-
-.imgseta {
-    width: 15%;
-    display: inline-block;
-    margin-top: 1px;
-}
-
-#titulo_quatro {
-    font-family: 'Caveat', cursive;
-    color: #DB7093;
-    font-size: 300%;
-    margin-top: 15px;
-    text-align: center;
-}
-
-#titulo_cinco {
-    font-family: 'Caveat', cursive;
-    color: #DB7093;
-    font-size: 300%;
-    margin-top: 0;
-}
-
-nav {
+ul {
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: #FFFF;
     position: fixed;
     padding-top: 5px;
     top: 0;
     z-index: 2;
     width: 100%;
+    text-align: right;
 }
 
-nav li, a {
-    float: left;
-    display: block;
-    color: #DB7093 !important;
-    text-align: center;
+ul li, a {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    font-size: 100%;
     text-decoration: none !important;
-    font-family: 'Roboto Mono', monospace;    
-    font-size: 20px;
-    padding: 6px;
+    display: inline-block;
+    color: #727273 !important;
+    padding: 1%;
+}
 
-  }
+/*header*/
+header {
+    background: url(../images/5.png);
+    background-size: cover;
+    padding: 20%;
+
+}
+
+header h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #404040;
+}
+
+header h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #95AFBF;
+    font-size: 200%;
+    text-align: left;
+    
+}
+.align_items {
+    width: 700px; 
+    margin-left: 0;
+    margin-top: 0%;
+}
+
+/*projects*/
+
+section {
+    max-width: 100%;
+    column-count: 4;
+    background-color: #F2F2F2;
+    padding: 10%;
+}
+
+@media (max-width: 700px) {
+    .titulo {
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section {
+        column-count: 1;
+    }
+}
+
+.box img {
+    display: block;
+    max-width: 100%;
+}
+
+.box {
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(50,50,90,.1);
+    overflow: hidden;
+    break-inside: avoid-column;
+    height: 300px;
+}
+
+.box p {
+    padding: 10px;
+    font-family: sans-serif;
+    color: #6B7C93;
+    font-size: .875em;
+    line-height: 1.4em;
+}
+
+.box a {
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.list {
+    color: #FFFF;
+    display: inline-block;
+    font-size: 50px;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.no-ordem {
+    text-align: center;
+}
+/*Quem sou eu*/
+.how img {
+    border-radius: 100%;
+    width: 90%;
+}
+
+.how-i-am h1 {
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.how-i-am p {
+    display: block;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.how-i-am {
+    width: 150%;
+}
+
