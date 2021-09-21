@@ -13,7 +13,11 @@ body {
     margin-top: 5%;
     text-align: center;
 }
-
+@media(max-width: 700px){
+    #cont {
+        margin-top: 100px;
+    }
+}
 label {
     color: #95AFBF;
     display: block;
