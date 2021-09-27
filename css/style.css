@@ -57,6 +57,8 @@ header h1{
     text-align: left;
     
 }
+
+
 .align_items {
     width: 700px; 
     margin-left: 0;
@@ -144,3 +146,36 @@ section {
     width: 150%;
 }
 
+/* Forms*/
+
+label, input, textarea {
+    display: block;
+    color: #727273;
+
+}
+
+input, textarea {
+
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+
+
+#cont {
+    background-color: #95AFBF;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #95AFBF;
+    width: 100%;
+    border: none;
+    color: #727273;
+}

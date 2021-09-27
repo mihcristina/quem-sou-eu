@@ -19,7 +19,7 @@
         <li><a href="#begin">Home</a></li>
         <li><a href="#home">Portfólio</a></li>
         <li><a href="#how">Sobre</a></li>
-        <li><a href="./contact.html">Contato</a></li>
+        <li><a href="#cont">Contato</a></li>
       </ul>
   </nav>
 
@@ -58,9 +58,17 @@
               <img src="./images/p4.png" alt="">
               <p>Aplicativo de tarefas integrado - Em construção</p>
           </a>
-      </div>
+        </div>
+      
+      <div id="cinco" class="box box_um">
+        <a href="https://www.overmind.com.br/">
+        <img src="./images/8.png" alt="OverMind">
+        <p>Loja virtual - OverMind (WIX)</p>
+        </a>
+    </div>
+  
     </section>
-    
+
     <!--Sobre mim-->
     <section class="how" id="how">
       <img src="./images/7.png" alt="">
@@ -77,12 +85,27 @@
         <a href="https://www.instagram.com/michelli.dev/"><i class="fab fa-instagram"></i></a>
       </div>
     </section>
+    <!--Forms-->
+    <div id="cont">
+      <form name="myForm" action="./pagina-dados.js" method="post">
+          <label for="fname">Nome: </label>
+          <input id="fname" type="text">
+          <label for="phone">Telefone: </label>
+          <input id="phone" type="number">
+          <label for="email">E-mail: </label>
+          <input type="email">
+          <label for="message">Deixe sua mensagem: </label>
+          <textarea name="" id="message" cols="30" rows="10"></textarea>
+          <button>Enviar</button>
+      </form>
+  </div>
     
     <!--Rodapé-->
     <footer>
         <strong>Todos os direitos reservados | 2021</strong>
     </footer>
 
+    <script src="./ts/file.ts"></script>
     <script src="./js/style.js"></script>
     <script src="./bootstrap-5.1.1-dist/js/bootstrap.js"></script>
 </body>
