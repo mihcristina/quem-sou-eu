@@ -36,14 +36,7 @@ header {
 
 }
 
-@media(max-width: 700px) {
-    section {
-        margin-top: 10px;
-    }
-    header {
-        display: none;
-    }
-}
+
 
 header h2 {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -63,6 +56,16 @@ header h1{
     width: 700px; 
     margin-left: 0;
     margin-top: 0%;
+}
+
+@media(max-width: 700px) {
+    section {
+        margin-top: 10px;
+    }
+    header h1 {
+        font-size: 100%;
+    }
+
 }
 
 /*projects*/
@@ -144,38 +147,4 @@ section {
 
 .how-i-am {
     width: 150%;
-}
-
-/* Forms*/
-
-label, input, textarea {
-    display: block;
-    color: #727273;
-
-}
-
-input, textarea {
-
-    width: 100%;
-    margin-bottom: 1%;
-}
-
-
-
-#cont {
-    background-color: #95AFBF;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 1%;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #95AFBF;
-    width: 100%;
-    border: none;
-    color: #727273;
 }
